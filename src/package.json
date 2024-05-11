@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@solana/web3.js": "^1.91.8"
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
   }
 }
