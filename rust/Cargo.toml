@@ -1,0 +1,20 @@
+[package]
+name = "assig2"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "assignment"
+homepage = "https://github.com/Lin0Andy/assign2.git"
+repository = "https://github.com/Lin0Andy/assign2.git"
+readme = "README.md"
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+solana-program = "1.18.12"
+solana-sdk = "1.18.12"
+
+[lib]
+name = "assig2"
+crate-type = ["cdylib", "lib"]
